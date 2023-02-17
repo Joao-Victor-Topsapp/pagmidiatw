@@ -3,10 +3,11 @@ import TWLogo from './Imgs/TWLogo.png'
 import Clickable from './Template/Button/Clickable'
 import Planilha from './Imgs/Planilha.png'
 import Telefone from './Imgs/Telefone.png'
-import Zap from './Imgs/Zap.png'
+import ApertoMao from './Imgs/ApertoMao.png'
 import icoWeb from './Imgs/icoWeb.png'
 import icoFace from './Imgs/icoFace.png'
 import icoInsta from './Imgs/icoInsta.png'
+import Suporte from './Imgs/Suporte.png'
 
 
 function App() {
@@ -16,21 +17,26 @@ function App() {
       <img src={TelaPrincipal} alt="" className='w-full h-full object-cover absolute'/>
       <section className="flex flex-col justify-around pt-0 lg:pt-36 items-center mt-auto w-full h-full z-20 relative">
         <img src={TWLogo} alt="" className='max-w-[clamp(250px,100vw-25px,600px)]'/>
-        <div className="grid lg:grid-cols-3 grid-cols-1 justify-around gap-5 md:gap-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-4 xl:gap-10">
           <Clickable
             url="https://site.twspeed.com.br/combo"
             texto='Conhecer planos'
             imagem={Planilha}
           />
           <Clickable
-            url="https://api.whatsapp.com/send?phone=556632110020"
+            url="https://api.whatsapp.com/send?phone=6632110030"/* 6632110030 */ //556632110020 ??
             texto='contratar agora'
-            imagem={Zap}
+            imagem={ApertoMao}
           />
           <Clickable
             url="https://api.whatsapp.com/send?phone=556632110020"
             texto='suporte 24h'
             imagem={Telefone}
+          />
+          <Clickable
+            url="https://api.whatsapp.com/send?phone=556632110020"
+            texto='suporte de plantão'
+            imagem={Suporte}
           />
         </div>
         <a href="https://www.twspeed.com.br" className='border-[#f5a209] border-[1px] text-[#f5a209] bg-gray-800 hover:bg-gray-900 transition-colors py-2 px-24 md:px-36 text-lg flex justify-center items-center gap-2'>

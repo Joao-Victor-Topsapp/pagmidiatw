@@ -24,7 +24,7 @@ function App() {
             imagem={Planilha}
           />
           <Clickable
-            url="https://api.whatsapp.com/send?phone=6632110030"/* 6632110030 */ //556632110020 ??
+            url="https://api.whatsapp.com/send?phone=556632110020"/* 6632110030 */ //556632110020 ??
             texto='contratar agora'
             imagem={ApertoMao}
           />
@@ -34,7 +34,7 @@ function App() {
             imagem={Telefone}
           />
           <Clickable
-            url="https://api.whatsapp.com/send?phone=556632110020"
+            url="tel:06632110030"
             texto='suporte de plantão'
             imagem={Suporte}
           />
@@ -44,10 +44,10 @@ function App() {
           <span>SITE</span>
         </a>
         <div className="flex gap-6">
-          <a href="https://www.instagram.com/twspeedtelecom" className='w-14 h-14'>
+          <a href="https://www.facebook.com/twspeedtelecom" className='w-14 h-14'>
             <img src={icoFace} alt=""/>
           </a>
-          <a href="https://www.facebook.com/twspeedtelecom" className='w-14 h-14'>
+          <a href="https://www.instagram.com/twspeedtelecom" className='w-14 h-14'>
             <img src={icoInsta} alt=""/>
           </a>
         </div>

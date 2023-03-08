@@ -8,6 +8,7 @@ import icoWeb from './Imgs/icoWeb.png'
 import icoFace from './Imgs/icoFace.png'
 import icoInsta from './Imgs/icoInsta.png'
 import Suporte from './Imgs/Suporte.png'
+import Youtube from './Imgs/Youtube.png'
 
 
 function App() {
@@ -49,6 +50,9 @@ function App() {
           </a>
           <a href="https://www.instagram.com/twspeedtelecom" className='w-14 h-14'>
             <img src={icoInsta} alt=""/>
+          </a>
+          <a href="https://www.youtube.com/@twspeedtelecom" className='w-14 h-14'>
+            <img src={Youtube} alt=""/>
           </a>
         </div>
       </section>
